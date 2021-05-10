@@ -6,12 +6,14 @@ import {
   Switch,
 } from "react-router-dom";
 import Header from "./structure/Header/Header";
+import Main from "./structure/Main/Main";
 
 function App() {
   return (
     <div className='App'>
       <Router>
         <Header />
+        <Main />
       </Router>
     </div>
   );

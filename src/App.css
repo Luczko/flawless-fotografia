@@ -1,7 +1,7 @@
-/* @import url("https://fonts.googleapis.com/css?family=Catamaran:400,100,300");
+@import url("https://fonts.googleapis.com/css?family=Catamaran:400,100,300");
 
 /* General global */
-/* html,
+html,
 body {
   font-family: "Catamaran", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -9,7 +9,7 @@ body {
   margin: 0;
   background-color: rgb(255, 255, 255);
   text-align: left;
-} */
+}
 
 /* .container {
   padding-right: 25px;
