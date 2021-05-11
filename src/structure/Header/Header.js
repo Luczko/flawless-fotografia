@@ -1,11 +1,22 @@
 import React from "react";
 import Navigation from "../../components/Navigation/Navigation";
+import NavigationMobile from "../../components/NavigationMobile/NavigationMobile";
 import { NavLink } from "react-router-dom";
+import "./Header.css";
+import logo from "../../images/fotografia-kobieca-logo.jpg";
+import { useMediaQuery } from "react-responsive";
 
 const Header = () => {
+  const isMobile = useMediaQuery({
+    query: "(min-width:756px)",
+  });
+  const navi = isMobile ? <Navigation /> : <NavigationMobile />;
   return (
     <div className='header'>
-      <Navigation />
+      <NavLink to='/' exact>
+        <img src={logo} alt='logo Flawless Fotografia' />
+      </NavLink>
+      {navi}
     </div>
   );
 };
