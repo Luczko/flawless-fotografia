@@ -12,23 +12,23 @@ const NavigationMobile = ({ hide }) => {
         </NavLink>
       </div>
       <div className='mob-navbar'>
-        <NavLink to='/catalog' onClick={hide}>
-          oferta
+        <NavLink to='/experience' onClick={hide}>
+          the experience
         </NavLink>
       </div>
       <div className='mob-navbar'>
-        <NavLink to='/portfolio' onClick={hide}>
-          portfolio
-        </NavLink>
-      </div>
-      <div className='mob-navbar'>
-        <NavLink to='/about' onClick={hide}>
-          o mnie
+        <NavLink to='/galleries' onClick={hide}>
+          galleries
         </NavLink>
       </div>
       <div className='mob-navbar'>
         <NavLink to='/about' onClick={hide}>
-          kontakt
+          about
+        </NavLink>
+      </div>
+      <div className='mob-navbar'>
+        <NavLink to='/contact' onClick={hide}>
+          contact
         </NavLink>
       </div>
     </div>

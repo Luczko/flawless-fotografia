@@ -2,9 +2,9 @@ import React from "react";
 import cover1 from "../../images/covers/fotografia-kobieca-cover1.png";
 
 import { NavLink } from "react-router-dom";
-import "./Portfolio.css";
+import "./Galleries.css";
 
-const Portfolio = () => {
+const Galleries = () => {
   return (
     <div className='covers'>
       <div className='cover'>
@@ -59,4 +59,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Galleries;
