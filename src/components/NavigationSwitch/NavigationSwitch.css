@@ -1,0 +1,11 @@
+.switch {
+  line-height: 2;
+  position: absolute;
+  font-size: 2rem;
+  top: 8px;
+  left: 28px;
+  text-align: left;
+  width: 100vw;
+  z-index: 10;
+  cursor: pointer;
+}

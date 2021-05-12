@@ -1,6 +1,6 @@
 import React from "react";
 import Navigation from "../../components/Navigation/Navigation";
-import NavigationMobile from "../../components/NavigationMobile/NavigationMobile";
+import NavigationSwitch from "../../components/NavigationSwitch/NavigationSwitch";
 import { NavLink } from "react-router-dom";
 import "./Header.css";
 import logo from "../../images/fotografia-kobieca-logo.jpg";
@@ -10,7 +10,7 @@ const Header = () => {
   const isMobile = useMediaQuery({
     query: "(min-width:756px)",
   });
-  const navi = isMobile ? <Navigation /> : <NavigationMobile />;
+  const navi = isMobile ? <Navigation /> : <NavigationSwitch />;
   return (
     <div className='header'>
       <NavLink to='/' exact>

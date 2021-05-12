@@ -3,25 +3,33 @@ import { NavLink } from "react-router-dom";
 import "./NavigationMobile.css";
 import logo from "../../images/fotografia-kobieca-logo.jpg";
 
-const NavigationMobile = () => {
+const NavigationMobile = ({ hide }) => {
   return (
     <div className='mob-container'>
       <div className='mob-navbar'>
-        <NavLink exact to='/'>
+        <NavLink exact to='/' onClick={hide}>
           home
         </NavLink>
       </div>
       <div className='mob-navbar'>
-        <NavLink to='/catalog'>oferta</NavLink>
+        <NavLink to='/catalog' onClick={hide}>
+          oferta
+        </NavLink>
       </div>
       <div className='mob-navbar'>
-        <NavLink to='/portfolio'>portfolio</NavLink>
+        <NavLink to='/portfolio' onClick={hide}>
+          portfolio
+        </NavLink>
       </div>
       <div className='mob-navbar'>
-        <NavLink to='/about'>o mnie</NavLink>
+        <NavLink to='/about' onClick={hide}>
+          o mnie
+        </NavLink>
       </div>
       <div className='mob-navbar'>
-        <NavLink to='/about'>kontakt</NavLink>
+        <NavLink to='/about' onClick={hide}>
+          kontakt
+        </NavLink>
       </div>
     </div>
   );
