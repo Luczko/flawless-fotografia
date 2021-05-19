@@ -1,5 +1,12 @@
 import React from "react";
-import cover1 from "../../images/covers/fotografia-kobieca-cover1.png";
+import cover1 from "../../images/covers/fotografia_kobieca_bialystok_cover_1.jpg";
+import cover2 from "../../images/covers/fotografia_kobieca_bialystok_cover_2.jpg";
+import cover3 from "../../images/covers/fotografia_kobieca_bialystok_cover_3.jpg";
+import cover4 from "../../images/covers/fotografia_kobieca_bialystok_cover_4.jpg";
+import cover5 from "../../images/covers/fotografia_kobieca_bialystok_cover_5.jpg";
+import cover6 from "../../images/covers/fotografia_kobieca_bialystok_cover_6.jpg";
+import cover7 from "../../images/covers/fotografia_kobieca_bialystok_cover_7.jpg";
+import cover8 from "../../images/covers/fotografia_kobieca_bialystok_cover_8.jpg";
 
 import { NavLink } from "react-router-dom";
 import "./Galleries.css";
@@ -11,49 +18,49 @@ const Galleries = () => {
         <NavLink to='/about'>
           <img src={cover1} alt='Domi' />
         </NavLink>
-        <h3>Sesja Biznesowa</h3>
+        <h3>dancing soul</h3>
       </div>
       <div className='cover'>
         <NavLink to='/about'>
-          <img src={cover1} alt='Domi' />
+          <img src={cover2} alt='Domi' />
         </NavLink>
-        <h3>Lata 20ste</h3>
+        <h3>Be my valentine</h3>
       </div>
       <div className='cover'>
         <NavLink to='/about'>
-          <img src={cover1} alt='Domi' />
+          <img src={cover3} alt='Domi' />
         </NavLink>
-        <h3>Kobieta z Klasą</h3>
+        <h3>nazwa</h3>
       </div>
       <div className='cover'>
         <NavLink to='/about'>
-          <img src={cover1} alt='Domi' />
+          <img src={cover4} alt='Domi' />
         </NavLink>
-        <h3>Dancing Soul</h3>
+        <h3>nazwa</h3>
       </div>
       <div className='cover'>
         <NavLink to='/about'>
-          <img src={cover1} alt='Domi' />
+          <img src={cover5} alt='Domi' />
         </NavLink>
-        <h3>Floral Bath</h3>
+        <h3>nazwa</h3>
       </div>
       <div className='cover'>
         <NavLink to='/about'>
-          <img src={cover1} alt='Domi' />
+          <img src={cover6} alt='Domi' />
         </NavLink>
-        <h3>Simply Budoir</h3>
+        <h3>nazwa</h3>
       </div>
       <div className='cover'>
         <NavLink to='/about'>
-          <img src={cover1} alt='Domi' />
+          <img src={cover7} alt='Domi' />
         </NavLink>
-        <h3>Wild Spirit</h3>
+        <h3>golden 20's</h3>
       </div>
       <div className='cover'>
         <NavLink to='/about'>
-          <img src={cover1} alt='Domi' />
+          <img src={cover8} alt='Domi' />
         </NavLink>
-        <h3>Independent Woman</h3>
+        <h3>nazwa</h3>
       </div>
     </div>
   );
