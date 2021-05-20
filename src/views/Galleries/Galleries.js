@@ -33,7 +33,7 @@ const Galleries = () => {
         <h3>nazwa</h3>
       </div>
       <div className='cover'>
-        <NavLink to='/about'>
+        <NavLink to='/gal4'>
           <img src={cover4} alt='Domi' />
         </NavLink>
         <h3>nazwa</h3>

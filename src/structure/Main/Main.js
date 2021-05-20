@@ -8,6 +8,7 @@ import Galleries from "../../views/Galleries/Galleries";
 import GalleryOne from "../../views/Galleries/SingleGalleries/GalleryOne";
 import GalleryTwo from "../../views/Galleries/SingleGalleries/GalleryTwo";
 import GalleryThree from "../../views/Galleries/SingleGalleries/GalleryThree";
+import GalleryFour from "../../views/Galleries/SingleGalleries/GalleryFour";
 import GalleryFive from "../../views/Galleries/SingleGalleries/GalleryFive";
 import GallerySix from "../../views/Galleries/SingleGalleries/GallerySix";
 import GallerySeven from "../../views/Galleries/SingleGalleries/GallerySeven";
@@ -23,6 +24,7 @@ const Main = () => {
         <Route path='/dancing-soul' component={GalleryOne}></Route>
         <Route path='/be-my-valentine' component={GalleryTwo}></Route>
         <Route path='/gal3' component={GalleryThree}></Route>
+        <Route path='/gal4' component={GalleryFour}></Route>
         <Route path='/carefree-afternoon' component={GalleryFive}></Route>
         <Route path='/gal6' component={GallerySix}></Route>
         <Route path='/golden-20s' component={GallerySeven}></Route>
