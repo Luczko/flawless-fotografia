@@ -51,7 +51,7 @@ const Galleries = () => {
         <h3>nazwa</h3>
       </div>
       <div className='cover'>
-        <NavLink to='/about'>
+        <NavLink to='/golden-20s'>
           <img src={cover7} alt='Domi' />
         </NavLink>
         <h3>golden 20's</h3>
