@@ -27,7 +27,7 @@ const Galleries = () => {
         <h3>Be my valentine</h3>
       </div>
       <div className='cover'>
-        <NavLink to='/about'>
+        <NavLink to='/gal3'>
           <img src={cover3} alt='Domi' />
         </NavLink>
         <h3>nazwa</h3>
