@@ -8,6 +8,7 @@ import Galleries from "../../views/Galleries/Galleries";
 import GalleryOne from "../../views/Galleries/SingleGalleries/GalleryOne";
 import GalleryTwo from "../../views/Galleries/SingleGalleries/GalleryTwo";
 import GalleryThree from "../../views/Galleries/SingleGalleries/GalleryThree";
+import GalleryFive from "../../views/Galleries/SingleGalleries/GalleryFive";
 import Home from "../../views/Home/Home";
 
 const Main = () => {
@@ -20,6 +21,7 @@ const Main = () => {
         <Route path='/dancing-soul' component={GalleryOne}></Route>
         <Route path='/be-my-valentine' component={GalleryTwo}></Route>
         <Route path='/gal3' component={GalleryThree}></Route>
+        <Route path='/carefree-afternoon' component={GalleryFive}></Route>
         <Route path='/about' component={About}></Route>
         <Route path='/contact' component={Contact}></Route>
       </Switch>
