@@ -6,7 +6,7 @@ import "./SingleGalleries.css";
 
 const GalleryValentine = () => {
   return (
-    <div>
+    <div className='single-gallery'>
       <PhotoGalleries photos={photosValentine} />
     </div>
   );
