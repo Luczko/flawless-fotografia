@@ -15,7 +15,7 @@ const Galleries = () => {
   return (
     <div className='covers'>
       <div className='cover'>
-        <NavLink to='/about'>
+        <NavLink to='/dancing-soul'>
           <img src={cover1} alt='Domi' />
         </NavLink>
         <h3>dancing soul</h3>
