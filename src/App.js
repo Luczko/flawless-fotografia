@@ -5,14 +5,15 @@ import {
   Route,
   Switch,
 } from "react-router-dom";
-import Header from "./structure/Header/Header";
 import Main from "./structure/Main/Main";
+import "bootstrap/dist/css/bootstrap.min.css";
+import GlobalHeader from "./structure/GlobalHeader/GlobalHeader";
 
 function App() {
   return (
-    <div className='App'>
+    <div className='app'>
       <Router>
-        <Header />
+        <GlobalHeader activeOnlyWhenExact={true} to='/' />
         <Main />
       </Router>
     </div>

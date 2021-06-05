@@ -4,9 +4,9 @@ import "./Navigation.css";
 
 const Navigation = () => {
   return (
-    <nav className='container'>
-      <div className='navbar'>
-        <ul className='nav'>
+    <nav className='contoiner'>
+      <div className='navbor'>
+        <ul className='nov'>
           <li>
             <NavLink exact to='/'>
               home

@@ -20,7 +20,7 @@
   margin: 0 auto;
 }
 
-h3 {
+.cover h3 {
   font-size: 10px;
   text-transform: uppercase;
   padding: 20px 0;
@@ -54,7 +54,7 @@ h3 {
     margin: 0 auto;
   }
 
-  h3 {
+  .cover h3 {
     font-size: 15px;
     text-transform: uppercase;
     padding-top: 15px;

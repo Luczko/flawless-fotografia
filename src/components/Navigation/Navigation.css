@@ -1,4 +1,4 @@
-.navbar {
+.navbor {
   position: relative;
   min-height: 20px;
   margin-left: 25%;
@@ -7,45 +7,45 @@
   border-bottom-style: double;
 }
 
-.nav {
+.nov {
   text-align: center;
   list-style-type: none;
   padding-left: 0;
 }
 
-.nav li {
+.nov li {
   display: inline-block;
   text-transform: uppercase;
   margin: 0px 35px;
 }
 
-.nav li a {
+.nov li a {
   font-size: 13px;
   font-weight: 100;
   color: rgb(153, 153, 153);
   text-decoration: none;
 }
 
-.nav li a:hover {
+.nov li a:hover {
   color: rgb(197, 22, 139);
 }
-.nav li a.active {
+.nov li a.active {
   color: rgb(197, 22, 139);
 }
 
-.container {
+.contoiner {
   margin-right: auto;
   margin-left: auto;
 }
 
 @media (max-width: 1200px) {
-  .navbar {
+  .navbor {
     margin-left: 16%;
     margin-right: 16%;
   }
 }
 @media (max-width: 860px) {
-  .navbar {
+  .navbor {
     margin-left: 10%;
     margin-right: 10%;
   }

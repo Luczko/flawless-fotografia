@@ -4,8 +4,6 @@ import img3 from "../../images/galleries/gallery-four/fotografia_kobieca_bialyst
 import img4 from "../../images/galleries/gallery-four/fotografia_kobieca_bialystok_420.jpg";
 import img5 from "../../images/galleries/gallery-four/fotografia_kobieca_bialystok_414.jpg";
 import img6 from "../../images/galleries/gallery-four/fotografia_kobieca_bialystok_415.jpg";
-import img7 from "../../images/galleries/gallery-four/fotografia_kobieca_bialystok_416.jpg";
-import img8 from "../../images/galleries/gallery-four/fotografia_kobieca_bialystok_417.jpg";
 import img9 from "../../images/galleries/gallery-four/fotografia_kobieca_bialystok_423.jpg";
 import img10 from "../../images/galleries/gallery-four/fotografia_kobieca_bialystok_424.jpg";
 import img11 from "../../images/galleries/gallery-four/fotografia_kobieca_bialystok_425.jpg";

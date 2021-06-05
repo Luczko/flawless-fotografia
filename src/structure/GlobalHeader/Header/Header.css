@@ -1,0 +1,12 @@
+.header img {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 756px) {
+  .header img {
+    width: 150px;
+  }
+}
