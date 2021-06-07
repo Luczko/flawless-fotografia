@@ -16,43 +16,43 @@ const Galleries = () => {
     <div className='covers'>
       <div className='cover'>
         <NavLink to='/dancing-soul'>
-          <img src={cover1} alt='Domi' />
+          <img src={cover1} alt='sesja taneczna' />
         </NavLink>
         <h3>dancing soul</h3>
       </div>
       <div className='cover'>
         <NavLink to='/be-my-valentine'>
-          <img src={cover2} alt='Domi' />
+          <img src={cover2} alt='sesja walentynkowa' />
         </NavLink>
         <h3>Be my valentine</h3>
       </div>
       <div className='cover'>
         <NavLink to='/gal3'>
-          <img src={cover3} alt='Domi' />
+          <img src={cover3} alt='gal3' />
         </NavLink>
         <h3>nazwa</h3>
       </div>
       <div className='cover'>
         <NavLink to='/gal4'>
-          <img src={cover4} alt='Domi' />
+          <img src={cover4} alt='gal4' />
         </NavLink>
         <h3>nazwa</h3>
       </div>
       <div className='cover'>
         <NavLink to='/carefree-afternoon'>
-          <img src={cover5} alt='Domi' />
+          <img src={cover5} alt='sesja boudoir' />
         </NavLink>
         <h3>carefree afternoon</h3>
       </div>
       <div className='cover'>
         <NavLink to='/gal6'>
-          <img src={cover6} alt='Domi' />
+          <img src={cover6} alt='gal6' />
         </NavLink>
         <h3>nazwa</h3>
       </div>
       <div className='cover'>
         <NavLink to='/golden-20s'>
-          <img src={cover7} alt='Domi' />
+          <img src={cover7} alt='sesja w stylu lat dwudziestych' />
         </NavLink>
         <h3>golden 20's</h3>
       </div>
