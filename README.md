@@ -7,6 +7,7 @@ Ten projekt komercyjny jest już zakończony. Wersja produkcyjna znajduje się p
 ## Developer's code
 
 This repository shows app in the development mode, with all the progression.
+
 Repozytorium zawiera apliakcję w wersji deweloperskiej, razem ze wszytskimi bieżącymi zmianami.
 
 
