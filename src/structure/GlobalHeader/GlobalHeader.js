@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header/Header";
 import HomeHeader from "./HomeHeader/HomeHeader";
-import { NavLink, useRouteMatch } from "react-router-dom";
+import { useRouteMatch } from "react-router-dom";
 import "./GlobalHeader.css";
 
 const GlobalHeader = ({ to, activeOnlyWhenExact }) => {

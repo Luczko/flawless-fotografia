@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./NavigationMobile.css";
-import logo from "../../images/fotografia-kobieca-logo.jpg";
 
 const NavigationMobile = ({ hide }) => {
   return (

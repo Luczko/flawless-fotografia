@@ -1,7 +1,6 @@
 import React from "react";
 import HomeNavigation from "../../../components/HomeNavigation/HomeNavigation";
 import NavigationSwitch from "../../../components/NavigationSwitch/NavigationSwitch";
-import { NavLink } from "react-router-dom";
 import "./HomeHeader.css";
 import { useMediaQuery } from "react-responsive";
 

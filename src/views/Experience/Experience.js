@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
 import "./Experience.css";
-import test1 from "../../images/experience/test1.jpg";
-import test2 from "../../images/experience/test2.jpg";
-import test3 from "../../images/experience/test3.JPEG";
-import test4 from "../../images/experience/test4.JPEG";
+import test1 from "../../images/experience/fotografia-kobieca-bialystok-041.jpg";
+import test2 from "../../images/experience/fotografia-kobieca-bialystok-042.jpg";
+import test3 from "../../images/experience/fotografia-kobieca-bialystok-043.jpg";
+import test4 from "../../images/experience/fotografia-kobieca-bialystok-044.jpg";
 
 import { NavLink } from "react-router-dom";
 
@@ -65,7 +65,7 @@ const Experience = () => {
   return (
     <div className='experience' onClick={handleResetHover}>
       <div className='exp'>
-        <img src={test1} alt='gal3' />
+        <img src={test1} alt='sesja kobieca magda makijaż' />
       </div>
       <div className='exp-txt'>
         <h3 id='lush'>Sesja kobieca</h3>
@@ -108,7 +108,7 @@ const Experience = () => {
           onMouseEnter={handleMouseOne}
           onMouseLeave={handleMouseOne}
         >
-          <img src={test2} alt='gal3' />
+          <img src={test2} alt='sesja kobieca magda' />
           {hoverElementOne}
         </div>
         <div className='exp-txt-mobile'>
@@ -142,7 +142,7 @@ const Experience = () => {
           onMouseEnter={handleMouseTwo}
           onMouseLeave={handleMouseTwo}
         >
-          <img src={test3} alt='gal3' />
+          <img src={test3} alt='sesja kobieca angelika' />
           {hoverElementTwo}
         </div>
         <div className='exp-txt-mobile'>
@@ -171,7 +171,7 @@ const Experience = () => {
           onMouseEnter={handleMouseThree}
           onMouseLeave={handleMouseThree}
         >
-          <img src={test4} alt='gal3' />
+          <img src={test4} alt='sesja kobieca karolina' />
           {hoverElementThree}
         </div>
       </div>

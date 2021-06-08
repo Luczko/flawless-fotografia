@@ -6,7 +6,7 @@ import "./Contact.css";
 import Info from "./Info/Info";
 import SocialMedia from "./SocialMedia/SocialMedia";
 import CombineInfo from "./CombineInfo/CombineInfo";
-import contactPhoto from "../../images/test.jpg";
+import contactPhoto from "../../images/fotografia-kobieca-bialystok-kontakt.jpg";
 
 const Contact = () => {
   const isChanged = useMediaQuery({ query: "(max-width:1175px" });

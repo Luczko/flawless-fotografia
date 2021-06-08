@@ -1,0 +1,28 @@
+.scroll-top {
+  position: fixed;
+  font-size: 35px;
+  color: #7d3c5a;
+  right: 23px;
+  bottom: -10px;
+  align-items: right;
+
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.7;
+}
+
+.scroll-top:hover {
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}

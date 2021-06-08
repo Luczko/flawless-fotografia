@@ -3,7 +3,7 @@ import Navigation from "../../../components/Navigation/Navigation";
 import NavigationSwitch from "../../../components/NavigationSwitch/NavigationSwitch";
 import { NavLink } from "react-router-dom";
 import "./Header.css";
-import logo from "../../../images/fotografia-kobieca-logo.jpg";
+import logo from "../../../images/fotografia-kobieca-logo.png";
 import { useMediaQuery } from "react-responsive";
 
 const Header = () => {
