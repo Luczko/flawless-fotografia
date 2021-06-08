@@ -20,6 +20,15 @@
     margin-bottom: 3px;
   }
 }
+
+@media (max-width: 800px) {
+  .adresses p {
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 3px;
+  }
+}
+
 .adresses a {
   color: rgb(165, 0, 129);
 }

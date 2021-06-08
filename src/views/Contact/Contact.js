@@ -23,7 +23,7 @@ const Contact = () => {
           Jeśli macie jakieś pytania, chiałybyście dowiedzieć się czegoś więcej
           na temat sesji lub zarezerwować termin, chętnie umówię się z Wami na
           spotkanie. Pokażę Wam przykładowe wydruki i albumy realizowane dla
-          moich klientek i udzielę wszystkich informacji.
+          moich klientek oraz udzielę wszystkich informacji.
           <br></br>
           <strong>Do usłyszenia!</strong>
         </p>

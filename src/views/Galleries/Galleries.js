@@ -34,7 +34,7 @@ const Galleries = () => {
       </div>
       <div className='cover'>
         <NavLink to='/simply-beautiful'>
-          <img src={cover4} alt='sesja kobieca' />
+          <img src={cover4} alt='sesja kobieca' onContextMenu='false' />
         </NavLink>
         <h3>simply beautiful</h3>
       </div>
