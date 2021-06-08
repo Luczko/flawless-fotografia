@@ -27,14 +27,14 @@ const Galleries = () => {
         <h3>Be my valentine</h3>
       </div>
       <div className='cover'>
-        <NavLink to='/gal3'>
-          <img src={cover3} alt='gal3' />
+        <NavLink to='/flirty-look'>
+          <img src={cover3} alt='sesja boudoir' />
         </NavLink>
-        <h3>nazwa</h3>
+        <h3>flirty look</h3>
       </div>
       <div className='cover'>
         <NavLink to='/simply-beautiful'>
-          <img src={cover4} alt='gal4' />
+          <img src={cover4} alt='sesja kobieca' />
         </NavLink>
         <h3>simply beautiful</h3>
       </div>
@@ -57,7 +57,7 @@ const Galleries = () => {
         <h3>golden 20's</h3>
       </div>
       <div className='cover'>
-        <img src={cover8} alt='sesja boudoir' />
+        <img id='next' src={cover8} alt='sesja boudoir' />
         <h3>coming soon...</h3>
       </div>
     </div>

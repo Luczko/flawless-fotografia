@@ -31,7 +31,7 @@ const About = () => {
           spełnienie każdego fotografa. Pracujemy, wychowujemy dzieci,
           opiekujemy się domem, chodzimy na zajęcia dodatkowe... i w tym całym
           zabieganiu zapominamy o sobie. Warto się zatrzymać raz na jakiś czas i
-          dać sobie oddech. Na sesjach kobiecyh łapiemy mnóstwo oddechów. Ten
+          dać sobie oddech. Na sesjach kobiecych łapiemy mnóstwo oddechów. Ten
           dzień jest cały dla Ciebie, sprawiam, że czujesz się doceniona,
           dopieszczona i rozluźniona. Dzięki temu w efekcie końcowym,
           dostrzegasz kobietę, która zawsze tam była, a o której zapomniałaś.
@@ -46,11 +46,11 @@ const About = () => {
           w nich kilkakrotnie udział - po drugiej stronie obiektywu. Dzięki temu
           wiem, jak Ci najlepiej doradzić podczas pozowania, jak wydobyć Twoje
           piękne kształty i atuty. I mówiąc z własnego doświadczenia - każda
-          kobietka powinna sobie pozowlić na chwilę takiego relaksu, na te
-          piękne portrety, bo ja wracam do nich często i zawsze dodają mi one
-          pewności siebie. Każda z nas może wyglądać i poczuć się jak gwiazda.
-          Zapraszam Cię na wspólną niezapomnianą przygodę - małe ostrzeżenie -
-          to uzaleźnia!
+          kobieta powinna sobie pozowlić na chwilę takiego relaksu, na te piękne
+          portrety, bo ja wracam do nich często i zawsze dodają mi one pewności
+          siebie. Każda z nas może wyglądać i poczuć się jak gwiazda. Zapraszam
+          Cię na wspólną niezapomnianą przygodę - małe ostrzeżenie - to
+          uzależnia!
         </p>
       </div>
       <div className='abt-photo'>

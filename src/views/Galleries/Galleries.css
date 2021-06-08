@@ -20,6 +20,14 @@
   margin: 0 auto;
 }
 
+.cover img:hover {
+  opacity: 0.85;
+}
+
+#next:hover {
+  opacity: 1;
+}
+
 .cover h3 {
   font-size: 12px;
   text-transform: uppercase;

@@ -1,0 +1,56 @@
+.err {
+  height: 50vh;
+}
+
+.err h2 {
+  font-size: 50px;
+  letter-spacing: 4px;
+  line-height: 45px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 3%;
+  color: rgb(165, 0, 129);
+}
+
+.err h3 {
+  font-size: 30px;
+  letter-spacing: 4px;
+  line-height: 35px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.err p {
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 23px;
+  color: rgb(19, 19, 19);
+}
+
+@media (max-width: 768px) {
+  .err h2 {
+    margin-top: 30%;
+  }
+
+  .err h3 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: 25px;
+  }
+  .err p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
+.err a {
+  text-transform: uppercase;
+  color: rgb(165, 0, 129);
+}
+.err a:hover {
+  color: #7d3c5a;
+}

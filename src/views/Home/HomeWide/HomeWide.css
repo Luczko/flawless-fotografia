@@ -24,4 +24,5 @@
   position: absolute;
   z-index: 10;
   width: 15%;
+  opacity: 0.6;
 }
