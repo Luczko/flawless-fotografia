@@ -19,17 +19,17 @@ const Main = () => {
     <div className='main'>
       <Switch>
         <Route path='/' exact component={Home}></Route>
-        <Route path='/experience' component={Experience}></Route>
-        <Route path='/galleries' component={Galleries}></Route>
+        <Route path='/sesja-kobieca' component={Experience}></Route>
+        <Route path='/galerie' component={Galleries}></Route>
         <Route path='/dancing-soul' component={GalleryOne}></Route>
         <Route path='/be-my-valentine' component={GalleryTwo}></Route>
         <Route path='/gal3' component={GalleryThree}></Route>
-        <Route path='/gal4' component={GalleryFour}></Route>
+        <Route path='/simply-beautiful' component={GalleryFour}></Route>
         <Route path='/carefree-afternoon' component={GalleryFive}></Route>
-        <Route path='/gal6' component={GallerySix}></Route>
+        <Route path='/the-rose' component={GallerySix}></Route>
         <Route path='/golden-20s' component={GallerySeven}></Route>
-        <Route path='/about' component={About}></Route>
-        <Route path='/contact' component={Contact}></Route>
+        <Route path='/o-mnie' component={About}></Route>
+        <Route path='/kontakt' component={Contact}></Route>
       </Switch>
     </div>
   );

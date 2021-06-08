@@ -1,0 +1,34 @@
+.adresses {
+  margin-top: 10px;
+  text-align: left;
+}
+@media (max-width: 1250px) {
+  .adresses {
+    margin-top: 5px;
+  }
+}
+.adresses p {
+  margin-bottom: 5px;
+  font-size: 18px;
+  line-height: 23px;
+  color: rgb(19, 19, 19);
+}
+@media (max-width: 1270px) {
+  .adresses p {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 3px;
+  }
+}
+.adresses a {
+  color: rgb(165, 0, 129);
+}
+.adresses a:hover {
+  color: rgb(124, 124, 124);
+  text-decoration: none;
+}
+.contact_icon {
+  font-size: 30px;
+  padding-bottom: 3.5px;
+  padding-right: 10px;
+}

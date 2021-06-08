@@ -33,10 +33,10 @@ const Galleries = () => {
         <h3>nazwa</h3>
       </div>
       <div className='cover'>
-        <NavLink to='/gal4'>
+        <NavLink to='/simply-beautiful'>
           <img src={cover4} alt='gal4' />
         </NavLink>
-        <h3>nazwa</h3>
+        <h3>simply beautiful</h3>
       </div>
       <div className='cover'>
         <NavLink to='/carefree-afternoon'>
@@ -45,10 +45,10 @@ const Galleries = () => {
         <h3>carefree afternoon</h3>
       </div>
       <div className='cover'>
-        <NavLink to='/gal6'>
-          <img src={cover6} alt='gal6' />
+        <NavLink to='/the-rose'>
+          <img src={cover6} alt='sesja kobieca' />
         </NavLink>
-        <h3>nazwa</h3>
+        <h3>the rose</h3>
       </div>
       <div className='cover'>
         <NavLink to='/golden-20s'>
@@ -57,10 +57,8 @@ const Galleries = () => {
         <h3>golden 20's</h3>
       </div>
       <div className='cover'>
-        <NavLink to='/about'>
-          <img src={cover8} alt='Domi' />
-        </NavLink>
-        <h3>nazwa</h3>
+        <img src={cover8} alt='sesja boudoir' />
+        <h3>coming soon...</h3>
       </div>
     </div>
   );

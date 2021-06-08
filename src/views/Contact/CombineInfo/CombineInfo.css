@@ -1,0 +1,57 @@
+/* KOMPONENTY PRZY PODZIALE NA 4 - OD 850px */
+
+.mobile_info {
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 35px;
+}
+.firm_info {
+  width: 50%;
+  float: left;
+  margin-top: 30px;
+}
+@media (max-width: 800px) {
+  .firm_info {
+    width: 80%;
+    float: none;
+    margin: 0 10%;
+    margin-top: 10px;
+  }
+}
+
+.adress_info {
+  width: 50%;
+  float: left;
+  padding-left: 8%;
+  margin-top: 50px;
+}
+
+@media (max-width: 930px) {
+  .adress_info {
+    padding-left: 1.3%;
+  }
+}
+
+@media (max-width: 800px) {
+  .adress_info {
+    padding-left: 0;
+    width: 80%;
+    float: none;
+    margin: 0 10%;
+    margin-top: 10px;
+  }
+}
+
+/* @media (max-width: 750px) {
+  .adress_info {
+    width: 38%;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+}
+@media (max-width: 600px) {
+  .adress_info {
+    float: none;
+    width: 100vw;
+  }
+} */

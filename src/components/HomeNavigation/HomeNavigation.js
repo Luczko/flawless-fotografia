@@ -13,16 +13,16 @@ const HomeNavigation = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to='/experience'>sesja kobieca</NavLink>
+            <NavLink to='/sesja-kobieca'>sesja kobieca</NavLink>
           </li>
           <li>
-            <NavLink to='/galleries'>galerie</NavLink>
+            <NavLink to='/galerie'>galerie</NavLink>
           </li>
           <li>
-            <NavLink to='/about'>o mnie</NavLink>
+            <NavLink to='/o-mnie'>o mnie</NavLink>
           </li>
           <li>
-            <NavLink to='/contact'>kontakt</NavLink>
+            <NavLink to='/kontakt'>kontakt</NavLink>
           </li>
         </ul>
       </div>

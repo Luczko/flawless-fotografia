@@ -8,6 +8,7 @@ import car4 from "../../../images/carousel-mobile/fotografia_kobieca_bialystok_0
 import car5 from "../../../images/carousel-mobile/fotografia_kobieca_bialystok_015.jpg";
 import car6 from "../../../images/carousel-mobile/fotografia_kobieca_bialystok_016.jpg";
 import car7 from "../../../images/carousel-mobile/fotografia_kobieca_bialystok_017.jpg";
+import logo from "../../../images/logo-home.png";
 
 import "./HomeMobile.css";
 
@@ -72,6 +73,9 @@ const HomeMobile = () => {
           <Carousel.Caption></Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      <div className='logo-home'>
+        <img src={logo} />
+      </div>
     </div>
   );
 };

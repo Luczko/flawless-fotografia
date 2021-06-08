@@ -7,6 +7,7 @@ import car3 from "../../../images/carousel/fotografia-kobieca-bialystok-003.jpg"
 import car4 from "../../../images/carousel/fotografia-kobieca-bialystok-004.jpg";
 import car5 from "../../../images/carousel/fotografia-kobieca-bialystok-005.jpg";
 import car6 from "../../../images/carousel/fotografia-kobieca-bialystok-006.jpg";
+import logo from "../../../images/logo-home.png";
 
 import "./HomeWide.css";
 
@@ -63,6 +64,9 @@ const HomeWide = () => {
           <Carousel.Caption></Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      <div className='logo-home-wide'>
+        <img src={logo} />
+      </div>
     </div>
   );
 };

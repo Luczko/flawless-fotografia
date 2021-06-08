@@ -1,9 +1,10 @@
 import React from "react";
+import "./Info.css";
 
 const Info = () => {
   return (
     <div className='info'>
-      <p>FLAWLESS PHOTOSTUDIO</p>
+      <p id='lush'>Flawless Photostudio</p>
       <p>ES FOTOGRAFIE Ewelina Sadowska</p>
       <p>Kaczorowskiego 7/313</p>
       <p>15-375 Białystok</p>

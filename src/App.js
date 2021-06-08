@@ -8,6 +8,7 @@ import {
 import Main from "./structure/Main/Main";
 import "bootstrap/dist/css/bootstrap.min.css";
 import GlobalHeader from "./structure/GlobalHeader/GlobalHeader";
+import GlobalFooter from "./structure/GlobalFooter/GlobalFooter";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Router>
         <GlobalHeader activeOnlyWhenExact={true} to='/' />
         <Main />
+        <GlobalFooter activeOnlyWhenExact={true} to='/' />
       </Router>
     </div>
   );

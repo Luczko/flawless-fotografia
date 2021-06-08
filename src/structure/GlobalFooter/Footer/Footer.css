@@ -1,0 +1,48 @@
+.footer-main {
+  width: 60%;
+  margin: 0 20%;
+}
+
+@media (max-width: 1400px) {
+  .footer-main {
+    width: 80%;
+    margin: 0 10%;
+  }
+}
+
+.footer-icons {
+  vertical-align: middle;
+  margin-top: 10px;
+  color: #7d3c5a;
+  width: 50%;
+  float: left;
+  text-align: left;
+  font-size: 25px;
+}
+.footer-icons a {
+  color: #7d3c5a;
+}
+
+.footer-icons a:hover {
+  color: rgb(124, 124, 124);
+  text-decoration: none;
+}
+.footer-cred {
+  width: 50%;
+  float: left;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  padding: 10px 0;
+  color: rgb(19, 19, 19);
+}
+@media (max-width: 768px) {
+  .footer-cred {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+.footer-cred p {
+  margin-bottom: 0px;
+}

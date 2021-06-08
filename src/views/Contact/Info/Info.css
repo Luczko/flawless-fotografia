@@ -1,244 +1,36 @@
-.contact {
-    margin-bottom: 30px;
+.info {
+  margin-top: 20px;
+  width: 100%;
+  float: left;
+}
+
+#lush {
+  font-family: lush, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  line-height: 65px;
+  color: #7d3c5a;
+}
+
+@media (max-width: 1360px) {
+  .info {
+    font-size: 15px;
   }
-  
-  .info_contact {
-    float: left;
-    padding: 30px 250px 30px 120px;
-    border-left: 1px solid rgb(75, 12, 15);
-    margin: 4vw auto;
-    width: 50%;
-    height: 40%;
+}
+@media (max-width: 700px) {
+  .info {
+    font-size: 14px;
   }
-  @media (max-width: 1360px) {
-    .info_contact {
-      padding-right: 100px;
-      padding-left: 80px;
-      margin-top: 5vw;
-    }
+}
+@media (max-width: 600px) {
+  .info {
+    margin-top: 35px;
   }
-  
-  @media (max-width: 850px) {
-    .info_contact {
-      margin-bottom: 0;
-      margin-top: 3vw;
-    }
-  }
-  @media (max-width: 700px) {
-    .info_contact {
-      padding-left: 50px;
-      padding-right: 50px;
-    }
-  }
-  @media (max-width: 600px) {
-    .info_contact {
-      float: none;
-      width: 100vw;
-      border-left: none;
-      margin-top: 0;
-      padding-bottom: 0;
-      /* margin-bottom: 20px; */
-    }
-  }
-  .info_contact p {
-    font-size: 18px;
-  }
-  @media (max-width: 600px) {
-    .info_contact p {
-      font-size: 15px;
-    }
-  }
-  .contact aside {
-    float: left;
-    width: 50%;
-  }
-  
-  @media (max-width: 600px) {
-    .contact aside {
-      float: none;
-      width: 100%;
-    }
-  }
-  .contact aside img {
-    width: 50%;
-    margin: 4vw auto 110px 200px;
-    transition: 1s;
-  }
-  @media (max-width: 1700px) {
-    .contact aside img {
-      margin-top: 9vw;
-    }
-  }
-  @media (max-width: 1360px) {
-    .contact aside img {
-      width: 60%;
-      margin-left: 100px;
-      margin-right: auto;
-    }
-  }
-  @media (max-width: 1000px) {
-    .contact aside img {
-      width: 70%;
-      margin-left: 50px;
-      margin-top: 12vw;
-    }
-  }
-  @media (max-width: 850px) {
-    .contact aside img {
-      width: 70%;
-      margin-left: 50px;
-      margin-top: 2vw;
-      margin-bottom: 0;
-    }
-  }
-  @media (max-width: 770px) {
-    .contact aside img {
-      margin-top: 6vw;
-      margin-left: 0px;
-    }
-  }
-  @media (max-width: 600px) {
-    .contact aside img {
-      margin: 15px auto;
-    }
-  }
-  .contact h1 {
-    font-weight: 300;
-    font-size: 30px;
-    color: rgb(75, 12, 15);
-    margin-bottom: 25px;
-  }
-  @media (max-width: 1360px) {
-    .contact h1 {
-      font-size: 25px;
-    }
-  }
-  @media (max-width: 700px) {
-    .contact h1 {
-      font-size: 20px;
-    }
-  }
-  @media (max-width: 600px) {
-    .contact h1 {
-      margin-bottom: 15px;
-    }
-  }
-  
-  .contact h2 {
-    font-weight: 300;
-    font-size: 25px;
-    color: rgb(75, 12, 15);
-  }
-  
-  .contact h3 {
-    font-weight: 300;
-    font-size: 20px;
-    color: rgb(75, 12, 15);
-  }
-  .adresses {
-    margin-top: 80px;
-  
-    text-align: left;
-  }
-  @media (max-width: 1250px) {
-    .adresses {
-      margin-top: 45px;
-    }
-  }
-  .adresses p {
-    margin-bottom: 5px;
-    font-size: 16px;
-  }
-  @media (max-width: 1360px) {
-    .adresses p {
-      font-size: 15px;
-    }
-  }
-  .adresses a {
-    color: rgb(75, 12, 15);
-  }
-  .adresses a:hover {
-    color: rgb(124, 124, 124);
-    text-decoration: none;
-  }
-  .contact_icon {
-    font-size: 30px;
-    padding-bottom: 3.5px;
-    padding-right: 10px;
-  }
-  .firm {
-    margin-top: 50px;
-    font-size: 17px;
-    color: rgb(75, 12, 15);
-  }
-  @media (max-width: 1360px) {
-    .firm {
-      font-size: 15px;
-    }
-  }
-  @media (max-width: 700px) {
-    .firm {
-      font-size: 14px;
-    }
-  }
-  @media (max-width: 600px) {
-    .firm {
-      margin-top: 35px;
-    }
-  }
-  .firm p {
-    margin-bottom: 3px;
-  }
-  .firm p:first-child {
-    font-weight: 500;
-  }
-  
-  /* KOMPONENTY PRZY PODZIALE NA 4 - OD 850px */
-  
-  .mobile_info {
-    overflow: hidden;
-    width: 100vw;
-    margin-bottom: 35px;
-  }
-  .firm_info {
-    width: 50%;
-    float: left;
-    margin-top: 30px;
-    margin-left: 20px;
-  }
-  @media (max-width: 750px) {
-    .firm_info {
-      width: 45%;
-      margin-top: 10px;
-      padding-left: 25px;
-    }
-  }
-  @media (max-width: 600px) {
-    .firm_info {
-      float: none;
-      width: 100vw;
-      padding-left: 0;
-      margin-left: 0;
-    }
-  }
-  
-  .adress_info {
-    width: 35%;
-    float: left;
-    margin-top: 50px;
-    margin-left: 80px;
-  }
-  @media (max-width: 750px) {
-    .adress_info {
-      width: 38%;
-      margin-top: 10px;
-      margin-left: 50px;
-    }
-  }
-  @media (max-width: 600px) {
-    .adress_info {
-      float: none;
-      width: 100vw;
-    }
-  }
-  
+}
+.info p {
+  font-size: 18px;
+  line-height: 23px;
+  color: rgb(19, 19, 19);
+  text-align: center;
+}
